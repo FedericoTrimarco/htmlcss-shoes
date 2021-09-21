@@ -3,4 +3,48 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container-top, .container-center, .container-bottom{
+    width: 100vw;
+    height: 100vh; 
+    position: relative;
+}
+/* CONTAINER TOP */
+.container-top{
+    background-color: red;
+}
+.container-top .item-text h1{
+    font-size: 5vh;
+    color: yellow;
+}
+/* CONTAINER CENTER */
+.container-center{
+    background-color: green;
+}
+.container-center .item-text h1{
+    font-size: 5vh;
+    color: yellow;
+}
+/* CONTAINER BOTTOM */
+.container-bottom{
+    background-color: yellow;
+}
+.container-bottom .item-text h1{
+    font-size: 5vh;
+    color: green;
+}
+/* ITEM */
+.item{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35vw;
+}
+.item-img img{
+    width: 100%;
+}
+.item-text{
+    text-align: center;
 }
