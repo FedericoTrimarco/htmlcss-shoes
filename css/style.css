@@ -21,21 +21,21 @@ html{
 }
 .container-top .item-text h3, 
 .container-center .item-text h3{
-    color: yellow;
+    color: #ffff00;
 }
 /* CONTAINER TOP */
 .container-top{
-    background-color: red;
+    background-color: #ff0000;
 }
 
 /* CONTAINER CENTER */
 .container-center{
-    background-color: green;
+    background-color: #008000;
 }
 
 /* CONTAINER BOTTOM */
 .container-bottom{
-    background-color: yellow;
+    background-color: #ffff00;
 }
 .container-bottom .item-text h3{
     color: green;
@@ -69,7 +69,7 @@ html{
 .container nav ul li a{
     display: inline-block;
     text-decoration: none;
-    color: black;
+    color: #000;
     background-color: #fff;
     border-radius: 50%;
     border: 1px solid currentColor;
