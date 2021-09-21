@@ -3,35 +3,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Sigmar One', cursive;
 }
-.container-top, .container-center, .container-bottom{
-    width: 100vw;
+html{
+    scroll-behavior: smooth;
+}
+/* GENERAL STYLE CONTAINER */
+.container-top, 
+.container-center, 
+.container-bottom{
     height: 100vh; 
     position: relative;
+}
+.item-text h3{
+    font-size: 4vh;
+    word-spacing: 30px;
+}
+.container-top .item-text h3, 
+.container-center .item-text h3{
+    color: yellow;
 }
 /* CONTAINER TOP */
 .container-top{
     background-color: red;
 }
-.container-top .item-text h1{
-    font-size: 5vh;
-    color: yellow;
-}
+
 /* CONTAINER CENTER */
 .container-center{
     background-color: green;
 }
-.container-center .item-text h1{
-    font-size: 5vh;
-    color: yellow;
-}
+
 /* CONTAINER BOTTOM */
 .container-bottom{
     background-color: yellow;
 }
-.container-bottom .item-text h1{
-    font-size: 5vh;
+.container-bottom .item-text h3{
     color: green;
 }
 /* ITEM */
@@ -57,9 +63,8 @@ nav{
 }
 .container nav ul li{
     display: inline-block;
-    padding-left: 20px;
-    font-size: 25px;
-    font-weight: bold;
+    padding-left: 50px;
+    font-size: 20px;
 }
 .container nav ul li a{
     display: inline-block;
@@ -67,6 +72,7 @@ nav{
     color: black;
     background-color: #fff;
     border-radius: 50%;
+    border: 1px solid currentColor;
     width: 50px;
     height: 50px;
     line-height: 50px;
